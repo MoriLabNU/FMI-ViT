@@ -56,7 +56,7 @@ If you use this repository or our pretrained weights, please cite:
 ```
 @inproceedings{yourbibkey2025,
   title={Domain-Specific Pretraining and Fine-Tuning with Contrastive Learning for Fluorescence Microscopic Image Segmentation},
-  author={Your Name and Others},
+  author={Yunheng Wu, et al.},
   booktitle={Proceedings of ...},
   year={2025}
 }
