@@ -64,7 +64,7 @@ If you use this repository or our pretrained weights, please cite:
 ## 🙏 Acknowledgements
 This repository is built upon the excellent works of:
 
-- [Codebase A Name](https://github.com/username/projectA) — Base architecture and training pipeline  
-- [Codebase B Name](https://github.com/username/projectB) — Self-supervised learning and contrastive learning modules
+- [DINO](https://github.com/facebookresearch/dino) — Pretraining
+- [MMsegmentation](https://github.com/open-mmlab/mmsegmentation) — Fine-tuning
 
 We sincerely thank the authors for releasing their codes and making this research possible.
