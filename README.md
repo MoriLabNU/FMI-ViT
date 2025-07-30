@@ -2,7 +2,7 @@ This repository contains the official implementation of our paper:
 **Domain-Specific Pretraining and Fine-Tuning with Contrastive Learning for Fluorescence Microscopic Image Segmentation**  
 
 <p align="center">
-  <img src="assets/method_framework.png" alt="Method Framework" width="80%">
+  <img src="assets/FMI.png" alt="Results" width="80%">
 </p>
 
 ## 🚀 Highlights
