@@ -11,6 +11,7 @@ This repository contains the official implementation of our paper:
 - **State-of-the-art performance**: Significant IoU and Dice gains over baselines, including on unseen biomarkers.  
 
 ## 📂 Repository Structure
+```
 ├── configs/ # Configuration files for training & evaluation
 ├── datasets/ # Dataset preparation scripts
 ├── models/ # Model architecture (ViT backbone + segmentation head)
@@ -19,7 +20,7 @@ This repository contains the official implementation of our paper:
 ├── train.py # Training script
 ├── evaluate.py # Evaluation script
 └── README.md
-
+```
 
 ## 📊 Dataset Preparation
 Prepare fluorescence microscopy datasets as described in the paper.
@@ -51,4 +52,11 @@ Fine-tuned Model (Contrastive Learning)
 
 ## 📜 Citation
 If you use this repository or our pretrained weights, please cite:
-
+```
+@inproceedings{yourbibkey2025,
+  title={Domain-Specific Pretraining and Fine-Tuning with Contrastive Learning for Fluorescence Microscopic Image Segmentation},
+  author={Your Name and Others},
+  booktitle={Proceedings of ...},
+  year={2025}
+}
+```
