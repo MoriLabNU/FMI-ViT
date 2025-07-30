@@ -60,3 +60,10 @@ If you use this repository or our pretrained weights, please cite:
   year={2025}
 }
 ```
+## 🙏 Acknowledgements
+This repository is built upon the excellent works of:
+
+- [Codebase A Name](https://github.com/username/projectA) — Base architecture and training pipeline  
+- [Codebase B Name](https://github.com/username/projectB) — Self-supervised learning and contrastive learning modules
+
+We sincerely thank the authors for releasing their codes and making this research possible.
