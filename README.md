@@ -59,6 +59,8 @@ Pretrained weights and fine-tuned models can be downloaded here:
 |----------|--------|----------|
 | ViT-S/16 | 21M    | [full ckpt](https://drive.google.com/file/d/1X3XaOu6tBkV0WxoaAQ8Xb0O1Oh_fZiDg/view?usp=sharing) \| [teacher backbone only](https://drive.google.com/file/d/1xvHhn9wYdoYs4dfVEyEVZtOPnHwPssW2/view?usp=sharing) \| [teacher backbone only (mmseg)](https://drive.google.com/file/d/1vl5PrOwyL2fejajEFcY317h0TShbsnM0/view?usp=sharing) \| 
 
+More pretrained weights for additional architectures will be released gradually...
+
 ## 📜 Citation
 If you use this repository or our pretrained weights, please cite:
 ```
