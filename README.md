@@ -31,7 +31,7 @@ Prepare fluorescence microscopy datasets as described in the paper.
 
 ## 💻 Training
 
-### **1. Pretraining (Domain-specific Self-supervised Learning)**
+### **1. Pretraining**
 ```
 CUDA_VISIBLE_DEVICES=0,1，2，3 \
 python -m torch.distributed.launch --nproc_per_node=4 main_dino.py \
@@ -41,7 +41,7 @@ python -m torch.distributed.launch --nproc_per_node=4 main_dino.py \
   --output_dir /path/to/save_model_dir
 ```
 
-### **2. Fine-tuning (Foreground-Background Contrastive Learning)**
+### **2. Fine-tuning**
 ```
 bash tools/train4.sh configs/our/small_upernet_our1.py \
   --work-dir /path/to/save_dir
