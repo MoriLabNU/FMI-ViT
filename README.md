@@ -57,9 +57,11 @@ bash tools/test.sh configs/our/small_upernet_test.py \
 ```
 
 ## 📥 Pretrained Weights
+You can choose to download only the pretrained teacher backbone weights for downstream tasks, or the full checkpoint containing the backbone as well as the projection head weights for both the teacher network and the teacher network. We also provide the pretrained teacher backbone weights in the MMSegmentation
 Pretrained weights and fine-tuned models can be downloaded here:
-Pretrained ViT (Domain-specific)
-Fine-tuned Model (Contrastive Learning)
+| arch     | params | download |
+|----------|--------|----------|
+| ViT-S/16 | 21M    | [full ckpt](https://drive.google.com/file/d/1X3XaOu6tBkV0WxoaAQ8Xb0O1Oh_fZiDg/view?usp=sharing) \| [teacher backbone only](https://drive.google.com/file/d/1xvHhn9wYdoYs4dfVEyEVZtOPnHwPssW2/view?usp=sharing) \| [teacher backbone only (mmseg)](https://drive.google.com/file/d/1vl5PrOwyL2fejajEFcY317h0TShbsnM0/view?usp=sharing) \| 
 
 ## 📜 Citation
 If you use this repository or our pretrained weights, please cite:
