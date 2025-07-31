@@ -13,14 +13,10 @@ This repository contains the official implementation of our paper:
 
 ## 📂 Repository Structure
 ```
-├── configs/ # Configuration files for training & evaluation
-├── datasets/ # Dataset preparation scripts
-├── models/ # Model architecture (ViT backbone + segmentation head)
-├── weights/ # Pretrained weights
-├── utils/ # Helper functions (training, evaluation, visualization)
-├── train.py # Training script
-├── evaluate.py # Evaluation script
-└── README.md
+FMI-ViT/
+├── pretrain/           # Code for self-supervised pretraining
+├── fine-tuning/        # Code for fine-tuning the model
+└── README.md           # Project description and usage instructions
 ```
 
 ## 📊 Dataset Preparation
