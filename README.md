@@ -26,24 +26,34 @@ This repository contains the official implementation of our paper:
 ## 📊 Dataset Preparation
 Prepare fluorescence microscopy datasets as described in the paper.
 
-- **Dataset A**: [Download Link / Preparation Instructions](link_to_dataset_A)  
-- **Dataset B**: [Download Link / Preparation Instructions](link_to_dataset_B)
+- **FMI-ViT Pretrain Data and VO Data**: Public access authorization is in progress.
+- **Cell Tracking Challenge**: [Download Link](https://celltrackingchallenge.net/)
 
 ## 💻 Training
 
 ### **1. Pretraining (Domain-specific Self-supervised Learning)**
 ```
-python train.py --config configs/pretrain.yaml
+CUDA_VISIBLE_DEVICES=0,1，2，3 \
+python -m torch.distributed.launch --nproc_per_node=4 main_dino.py \
+  --arch vit_small \
+  --batch_size_per_gpu 400 \
+  --data_path /path/to/dataset \
+  --output_dir /path/to/save_model_dir
 ```
 
 ### **2. Fine-tuning (Foreground-Background Contrastive Learning)**
 ```
-python train.py --config configs/fine_tune.yaml --pretrained weights/pretrained_vit.pth
+bash tools/train4.sh configs/our/small_upernet_our1.py \
+  --work-dir /path/to/save_dir
 ```
 
 ### **3. Evaluation**
 ```
-python train.py --config configs/fine_tune.yaml --pretrained weights/pretrained_vit.pth
+bash tools/test.sh configs/our/small_upernet_test.py \
+  /path/to/checkpoint.pth \
+  --show-dir /path/to/output_visualization \
+  --work-dir /path/to/output_results \
+  --out /path/to/output_predictions
 ```
 
 ## 📥 Pretrained Weights
