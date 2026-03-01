@@ -14,7 +14,7 @@ This repository contains the official implementation of our paper:
 ## 🚀 Quick Start: Test with Your Own Fluorescence Microscopy Images
 
 We provide a Jupyter Notebook 
-[`quick_start.ipynb`](notebooks/Notebook_v1) 
+[`Notebook_v1`](Notebook_v1) 
 that allows you to quickly test the model on your own fluorescence microscopy images.
 
 ### Steps:
