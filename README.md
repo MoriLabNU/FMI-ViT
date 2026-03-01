@@ -1,6 +1,6 @@
 ## 📄 Paper
 This repository contains the official implementation of our paper:
-**Domain-Specific Pretraining and Fine-Tuning with Contrastive Learning for Fluorescence Microscopic Image Segmentation**  
+**[Domain-Specific Pretraining and Fine-Tuning with Contrastive Learning for Fluorescence Microscopic Image Segmentation]([https://arxiv.org/abs/2501.12345](https://link.springer.com/chapter/10.1007/978-3-032-09569-5_28))**
 
 <p align="center">
   <img src="assets/FMI.png" alt="Results" width="80%">
@@ -10,6 +10,24 @@ This repository contains the official implementation of our paper:
 - **Domain-specific pretraining**: Vision Transformer pretrained on fluorescence microscopy images.  
 - **Cross-image foreground-background contrastive learning**: Improves semantic boundary recognition and cross-dataset generalization.  
 - **State-of-the-art performance**: Significant IoU and Dice gains over baselines, including on unseen biomarkers.  
+
+## 🚀 Quick Start: Test with Your Own Fluorescence Microscopy Images
+
+We provide a Jupyter Notebook 
+[`quick_start.ipynb`](notebooks/quick_start.ipynb) 
+that allows you to quickly test the model on your own fluorescence microscopy images.
+
+### Steps:
+
+1. Place your fluorescence microscopy image files into the specified input directory.
+2. Open and run `quick_start.ipynb`.
+3. Follow the instructions inside the notebook to:
+   - Load your image
+   - Perform segmentation
+   - Save the predicted mask
+
+Within a few steps, you can generate segmentation results for your own data.
+
 
 ## 📂 Repository Structure
 ```
