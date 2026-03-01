@@ -1,4 +1,4 @@
-# Biomedical Large-Image Segmentation
+# (Quick Start) Segmentation for FMI
 
 This package provides **slide-window inference** for segmenting large biomedical images (e.g. CLSM, histology) using a ViT-S/16 + UPerNet model. No ground truth is required—run inference only and save segmentation visualizations.
 
